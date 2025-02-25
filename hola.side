@@ -1,0 +1,164 @@
+{
+  "id": "52cef4ae-8a30-4ab7-9635-c9d82922ce4b",
+  "version": "2.0",
+  "name": "hola",
+  "url": "http://localhost/",
+  "tests": [{
+    "id": "69b7992c-fbf0-4f27-b1cf-b9632b758cb9",
+    "name": "Untitled",
+    "commands": [{
+      "id": "516c6fe5-0cba-4cbc-8a0e-b9f5f9ef4111",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=phpMyAdmin",
+      "targets": [
+        ["linkText=phpMyAdmin", "linkText"],
+        ["css=.item:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'phpMyAdmin')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/phpmyadmin/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'phpMyAdmin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa5b966-a0ee-48a8-9caf-4e0875800851",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PHPInfo",
+      "targets": [
+        ["linkText=PHPInfo", "linkText"],
+        ["css=.item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PHPInfo')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/dashboard/phpinfo.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PHPInfo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acd22166-4393-4134-b14d-311416baacb1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HOW-TO Guides",
+      "targets": [
+        ["linkText=HOW-TO Guides", "linkText"],
+        ["css=.item:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'HOW-TO Guides')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/dashboard/howto.html')]", "xpath:href"],
+        ["xpath=//section/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HOW-TO Guides')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f021d875-6a96-4044-9dd4-a1ea6fc5025a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FAQs",
+      "targets": [
+        ["linkText=FAQs", "linkText"],
+        ["css=.item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'FAQs')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/dashboard/faq.html')]", "xpath:href"],
+        ["xpath=//section/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'FAQs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcae475d-0678-41b5-87bc-6c95cf393fe8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apache Friends",
+      "targets": [
+        ["linkText=Apache Friends", "linkText"],
+        ["css=h1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Apache Friends')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/dashboard/index.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Apache Friends')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5222c66-4a48-4b35-bc18-d65d0f586ec4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CDN provided by",
+      "targets": [
+        ["linkText=CDN provided by", "linkText"],
+        ["css=.footer_links > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CDN provided by')]", "xpath:link"],
+        ["xpath=//a[@href='http://www.fastly.com/']", "xpath:href"],
+        ["xpath=//div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2083b46-01a5-4464-a258-45362e0ed423",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer_links > li:nth-child(2)",
+      "targets": [
+        ["css=.footer_links > li:nth-child(2)", "css:finder"],
+        ["xpath=//footer/div/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d9a3101-b5d6-43ba-8cac-386e72e08e46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Privacy Policy",
+      "targets": [
+        ["linkText=Privacy Policy", "linkText"],
+        ["css=.footer_links > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Privacy Policy')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/privacy_policy.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Privacy Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "532a6f49-ccf5-4056-abde-c15655f59cf5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=.footer_links > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.apachefriends.org/blog.html')]", "xpath:href"],
+        ["xpath=//footer/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ec66f28-c8eb-4189-afb6-4346cbd9ae77",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "481dd314-6f89-4513-bacb-fbf3f2bfa839",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd44de94-7909-4862-8ab3-7739aad4c22b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0ec0f0d3-e9cd-4a6f-94fe-3b879a18373a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["69b7992c-fbf0-4f27-b1cf-b9632b758cb9"]
+  }],
+  "urls": ["https://mi-aplicacionheroku.herokuapp.com/", "file:///C:/Users/cargu/Mi-proyecto-heroku/heroku.html"],
+  "plugins": []
+}
